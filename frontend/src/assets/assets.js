@@ -61,6 +61,8 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import aalu_paratha from './aalu_paratha.jpg'
+import paneer_paratha from './paneer_paratha.jpg'
 
 export const assets = {
     logo,
@@ -83,7 +85,9 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    aalu_paratha,
+    paneer_paratha
 }
 
 export const menu_list = [
@@ -350,5 +354,21 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
-    }
+    },
+    {
+        id: "33",
+        name: "Aalu Paratha with Chutney",
+        image: aalu_paratha,
+        price: 50,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pure Veg"
+    },
+    // {
+    //     id: "34",
+    //     name: "Paneer Paratha with Chutney",
+    //     image: paneer_paratha,
+    //     price: 70,
+    //     description: "Food provides essential nutrients for overall health and well-being",
+    //     category: "Pure Veg"
+    // }
 ]
